@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+    <h1>Strona kontaktowa</h1>
+<br>
+
+<nav>
+<p>Adres email do korespondencji:</p>
+    <a href="mailto:aleksa.bzdzikot@op.pl">Email- klik</a>
+<br>
+
+<p>Facebook:</p>
+    <a href="https://www.facebook.com/olka.bzdzikot">Facebook- klik</a>
+<br> 
+</nav>
+<p>Od serca:</p>
+    <center><img src=serce.png></center>
+
+<p>A teraz daj kontakt do siebie:</p>
+    <br>
+<form><form action="/form.php" method="post">
+    <label for="name">Imie i nazwisko</label>
+    <input type="text" id="name" placeholder="Jan Kowalski" required>
+<br>
+<br>
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="a@b" required>
+<br>
+<br>
+    <label for="textarea">Napisz wiadomosc:</label>
+    <input type="text" id="text" placeholder="Interesuje mnie czy..." required>
+<br>
+<br>
+    <label for="checkbox">Akceptacja RODO</label>
+    <input type="checkbox" id="checkbox">
+<br>
+<br>
+    <label for="select-choise">Kraj pochodzenia</label>
+    <select id="select-choise">
+        <option value="Polska">Polska</option>
+        <option value="Francja">Francja</option>
+        <option value="Inne">Inne</option>
+    </select>
+<br> 
+<br>
+    <label for="radio-choice-1">Jablko</label>
+    <input type="radio" id="radio-choise-1" value="Jablko"/>
+
+    <label for="radio-choice-2">Gruszka</label>
+    <input type="radio" id="radio-choise-2" value="Gruszka" checked="checked"/>
+
+    <label for="radio-choice-3">Wisnie</label>
+    <input type="radio" id="radio-choise-3" value="Wisnie"/>
+<br>
+<br>
+    <input type="submit" value="Wyslij" />
+</form>
+</body>
+
+<br>
+<footer>
+    <a href="index.html">Strona Główna</a>
+</footer>
+
+</html>
